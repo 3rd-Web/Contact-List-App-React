@@ -1,6 +1,6 @@
 import React, { useState, useContext } from "react";
 import { Link, useParams, useHistory } from "react-router-dom";
-import { Context } from "/workspace/react-hello-webapp/src/js/store/appContext.js";
+import { Context } from "../store/appContext.js";
 
 export const EditContact = () => {
   const { store, actions } = useContext(Context);
